@@ -1,1 +1,5 @@
-console.log('HI there')
+import { User } from './models/User'
+
+const user = new User({id: 4})
+
+user.fetch()
